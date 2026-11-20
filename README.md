@@ -47,7 +47,7 @@ Wildlife Health Watch (WHW) is a ranger-based programme in which trained rangers
 
 ## What the cleaning script does
 
-The script reads the raw WHW report export and removes reports where the **Species** field is blank. A report with no species cannot be grouped or compared by species, which this project needs.
+The script reads the raw WHW report export and removes reports where the **Species** field is blank. I removed reports with a blank Species field because, in the data I examined, almost all of them also lacked syndrome answers and the number of animals affected. They appear to be incomplete entries, not observations of sick animals, so they contain no information about syndromes.
 
 The script prints the number of reports before and after cleaning so the effect of the filter is visible. In the current data, 17 of 28 reports were removed.
 
