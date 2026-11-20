@@ -51,9 +51,7 @@ The script reads the raw WHW report export and removes reports where the **Speci
 
 The script prints the number of reports before and after cleaning so the effect of the filter is visible. In the current data, 17 of 28 reports were removed.
 
-No other changes are made to the data at this stage. Known issues still to be handled in later steps include inconsistent species names (for example, the same species recorded under more than one spelling) and inconsistent body condition score labels.
-
-Reports without a species may differ from the reports that remain, so this decision is treated as a limitation and discussed in the analysis.
+No other changes are made to the data at this stage. Known issues still to be handled in later steps include inconsistent species names (for example, the same species recorded under more than one spelling).
 
 ## Data privacy
 
@@ -64,11 +62,10 @@ Row-level reports, coordinates, sites and reporter IDs are never committed. Shar
 - Reports are **syndromic**, not laboratory-confirmed, so one syndrome can have several causes.
 - Reports reflect reporting effort as well as what is happening in wildlife.
 - Facility locations are not the same as actual veterinary capacity.
-- The aggregation level in `data/public/` is provisional and will be revisited once real counts are checked.
 
 ## Next steps
 
-Compile the veterinary capacity layer, download CHIRPS and NDVI for the study counties, and begin exploratory analysis (Prompt 3).
+Compile the veterinary capacity layer, download CHIRPS and NDVI for the study counties, and begin exploratory analysis.
 
 ## Definitions
 
